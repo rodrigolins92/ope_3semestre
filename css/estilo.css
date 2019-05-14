@@ -47,6 +47,13 @@ nav.navbar-transparente {
 
 /* Fim navbar */
 
+/* MAPA da página ROTAS */
+#mapa {
+	position: relative;
+	width: 50rem;
+	height: 30rem;
+}
+
 /* Capa */
 
 .capa {
