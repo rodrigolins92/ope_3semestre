@@ -4,11 +4,9 @@ html, body, #home {
 }
 
 body {
-	background: /*url(../imagens/capa.png), 
-				url(../imagens/ruido.png),*/
-				linear-gradient(50deg,#ff4169,#7c26f8);
+	background: linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed;
-	font-family: 'Comfortaa',Helvetica,Arial,sans-serif;
+	font-family: 'Comfortaa', cursive;
 }
 
 /* Início navbar */
@@ -67,7 +65,7 @@ nav.navbar-transparente {
 
 .btn-roxo {
 	background: #7c25f8;
-	color: #919496;
+	color: #c7c7c7;
 	font-weight: 600; 
 }
 
@@ -100,6 +98,17 @@ nav.navbar-transparente {
 
 #recursos h2 {
 	color: white;
+}
+
+#galeria {
+	position: relative;
+	top: 10%;
+	background: white;
+	padding: 20px 0;
+}
+
+#galeria h2,#galeria h3 {
+	color: #7c25f8;
 }
 
 .rotacionar {
